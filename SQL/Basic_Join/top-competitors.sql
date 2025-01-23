@@ -1,30 +1,30 @@
-hackers = {
-    hacker_id: int,
-    name: string
-}
+-- hackers = {
+--     hacker_id: int,
+--     name: string
+-- }
 
-difficulty = {
-    difficulty_level: int,
-    score: int
-}
+-- difficulty = {
+--     difficulty_level: int,
+--     score: int
+-- }
 
-challenges = {
-    challenge_id: int,
-    hacker_id: int,
-    difficulty_level: int
-}
+-- challenges = {
+--     challenge_id: int,
+--     hacker_id: int,
+--     difficulty_level: int
+-- }
 
-submissions = {
-    submissions_id: int,
-    hacker_id: int,
-    challenge_id: int,
-    score: int
-}
+-- submissions = {
+--     submissions_id: int,
+--     hacker_id: int,
+--     challenge_id: int,
+--     score: int
+-- }
 
-1. print hacker_id, name
-    1.1 who achieve full score more than one challenge
-2. Order by descending order of total number challenges who earned full scored
-3. sort by ascending order of hacker_id
+-- 1. print hacker_id, name
+--     1.1 who achieve full score more than one challenge
+-- 2. Order by descending order of total number challenges who earned full scored
+-- 3. sort by ascending order of hacker_id
 
 
 SELECT
