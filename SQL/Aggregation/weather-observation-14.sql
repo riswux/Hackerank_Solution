@@ -1,0 +1,5 @@
+SELECT
+    MAX(ROUND(LAT_N, 4)) AS max_lat
+FROM STATION
+WHERE 
+    ROUND(LAT_N, 4) < 137.2345;
